@@ -39,4 +39,18 @@ p{
 .week-summary__title{
     color: green;
 }
+.homework{
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+.homework--title{
+    color: green;
+
+}
+.homework--description{
+    color: #5f0f0f;
+
+}
+
 
