@@ -57,3 +57,6 @@ p {
 .list{
   list-style: square;
 }
+.table{
+  width: 100%;
+}
