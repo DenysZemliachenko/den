@@ -17,3 +17,11 @@ const homeworkdes = document.querySelector(".homework--description");
 
 homeworkdes.innerHTML =
   "Uczę się w mieście Sopot w Technikum o nazwie Zespół Szkół Technicznych w Sopocie w 3 klasie";
+
+  function calculate(myNumber) {
+    
+    return myNumber*7;
+  }
+  const myResult = calculate(1);
+
+  console.log(myResult);
