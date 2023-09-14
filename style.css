@@ -1,56 +1,56 @@
-#top{
-    color:;
+#top {
+  color: ;
 }
-.game{
-    color:blueviolet;
+.game {
+  color: blueviolet;
 }
-nav a{
-    color: #a123fd;
+nav a {
+  color: #a123fd;
 }
-p{
-    color: gray;
+p {
+  color: gray;
 }
-.main-heading{
-    color: chocolate;
+.main-heading {
+  color: chocolate;
 }
-.navigation{
-    background: green;
-    padding: 16px;
-    border-radius: 8px;
+.navigation {
+  background: green;
+  padding: 16px;
+  border-radius: 8px;
 }
-.navigation__link{
-    color: #fff;
-    display: inline-block;
-    margin-right: 20px;
+.navigation__link {
+  color: #fff;
+  display: inline-block;
+  margin-right: 20px;
 }
-.navigation__link--hompage{
-    background: yellow;
-    color: #000;
+.navigation__link--hompage {
+  background: yellow;
+  color: #000;
 }
-.week-summary{
-    padding: 16px;
-    border: 1px solid #ccc;
-    margin-bottom: 16px;
+.week-summary {
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
 }
-.week-summary__description{
-    color: #5f0f0f;
-}
-
-.week-summary__title{
-    color: green;
-}
-.homework{
-    padding: 16px;
-    border: 1px solid #ccc;
-    margin-bottom: 16px;
-}
-.homework--title{
-    color: green;
-
-}
-.homework--description{
-    color: #5f0f0f;
-
+.week-summary__description {
+  color: #5f0f0f;
 }
 
-
+.week-summary__title {
+  color: green;
+}
+.homework {
+  padding: 16px;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+.homework--title {
+  color: green;
+}
+.homework--description {
+  color: #5f0f0f;
+}
+.main{
+  max-width: 1000px;
+  margin: 0 auto;
+}
