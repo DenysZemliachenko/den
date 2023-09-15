@@ -1,3 +1,13 @@
+html{
+  box-sizing: border-box;
+}
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  background: rgb(2,0,36);
+background: linear-gradient(159deg, rgba(2,0,36,1) 0%, rgba(73,210,114,1) 48%, rgba(0,212,255,1) 100%);
+}
 #top {
   color: ;
 }
@@ -17,6 +27,10 @@ p {
   background: green;
   padding: 16px;
   border-radius: 8px;
+  display: flex;
+  justify-content:space-around;
+  height: 100px;
+  align-items: center;
 }
 .navigation__link {
   color: #fff;
@@ -53,6 +67,7 @@ p {
 .main{
   max-width: 1000px;
   margin: 0 auto;
+  background-color: #fff;
 }
 .list{
   list-style: square;
