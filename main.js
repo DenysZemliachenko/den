@@ -3,11 +3,7 @@ const age = 16;
 
 console.log(name);
 console.log(age);
-console.log(`Siema drogi odwiedzający nazywam się ${name} i mam ${age} lat`);
 
-const heading = document.querySelector(".main-heading--js");
-
-console.log(heading);
 
 const homework = document.querySelector(".homework--title");
 
@@ -25,3 +21,14 @@ homeworkdes.innerHTML =
   const myResult = calculate(1);
 
   console.log(myResult);
+
+  const button = document.querySelector('.action--js');
+
+  console.log(button)
+
+  const myClick = () => {
+    const heading = document.querySelector(".main__heading--js");
+    heading.classList.toggle('klasa-z-js');
+  }
+
+  button.addEventListener('click', myClick);

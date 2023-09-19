@@ -37,6 +37,20 @@ p {
   display: inline-block;
   margin-right: 20px;
 }
+
+.navigation__link:hover{
+  color: cadetblue;
+}
+
+.navigation__link:focus{
+  border: 3px solid yellow;
+}
+
+.navigation__link:visited{
+  color: gray;
+}
+
+
 .navigation__link--hompage {
   background: yellow;
   color: #000;
@@ -52,6 +66,15 @@ p {
 
 .week-summary__title {
   color: green;
+}
+
+.week-summary__title::before{
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: tomato;
+  border-radius: 50%;
 }
 .homework {
   padding: 16px;
@@ -74,4 +97,8 @@ p {
 }
 .table{
   width: 100%;
+}
+ 
+.klasa-z-js{
+  background-color: yellow;
 }
